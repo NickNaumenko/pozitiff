@@ -1,0 +1,9 @@
+.examples {
+  @include list-style-reset;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    width: 50%;
+  }
+}

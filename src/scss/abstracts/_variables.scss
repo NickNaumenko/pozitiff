@@ -8,7 +8,7 @@
 
 /// Regular font family
 /// @type List
-$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$text-font-stack: 'Roboto', 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
 
 /// Code (monospace) font family
 /// @type List
@@ -24,7 +24,7 @@ $text-color: rgb(34, 34, 34) !default;
 
 /// Main brand color
 /// @type Color
-$brand-color: rgb(229, 0, 80) !default;
+$brand-color: #A6CC45;
 
 /// Light grey
 /// @type Color
@@ -37,6 +37,8 @@ $mid-grey: rgb(153, 153, 153) !default;
 /// Dark grey
 /// @type Color
 $dark-grey: rgb(68, 68, 68) !default;
+
+$white: #ffffff;
 
 
 
@@ -54,9 +56,10 @@ $max-width: 1180px !default;
 /// @prop {String} keys - Keys are identifiers mapped to a given length
 /// @prop {Map} values - Values are actual breakpoints expressed in pixels
 $breakpoints: (
-  'small': 320px,
-  'medium': 768px,
-  'large': 1024px,
+  'sm': 576px,
+  'md': 768px,
+  'lg': 992px,
+  'xl': 1200px
 ) !default;
 
 
