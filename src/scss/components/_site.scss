@@ -3,6 +3,29 @@
   min-height: 476px;
   padding: 2.9em;
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+
+  &--vocalip {
+    background-color: #F6F9FC;
+    background-image: url('../../img/vocalip.svg');
+  }
+
+  &--logicom {
+    background-color: #F6F9FC;
+    background-image: url('../../img/logicom.svg');
+    background-size: 50%;
+    background-position: center;
+  }
+
+  &--coral {
+    background-image: url('../../img/corals.jpg');
+  }
+
+  &--goodbodi {
+    background-image: url('../../img/goodbody.jpg');
+  }
 
   &__title {
     font-family: Rubik;
@@ -40,6 +63,16 @@
     height: 100%;
     transform: translateY(-100%);
     transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    &--coral {
+      background-image: url("../../img/corals@2x.jpg");
+    }
+
+    &--goodbodi {
+      background-image: url("../../img/goodbody@2x.jpg");
+    }
   }
 }
 

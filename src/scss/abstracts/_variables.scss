@@ -72,3 +72,8 @@ $breakpoints: (
 /// @example scss - When using a CDN
 ///   $base-url: 'http://cdn.example.com/assets/';
 $base-url: '/assets/' !default;
+
+/// Screen resolutions
+$retina-dpi: 144dpi;
+
+$retina-dppx: 1.5dppx;
