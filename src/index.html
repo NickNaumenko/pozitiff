@@ -9,13 +9,98 @@
 </head>
 <body>
   <main class="main">
-    <ul class="examples">
-      <li>
-        <article>
-          <h3></h3>
-        </article>
-      </li>
-    </ul>
-  </main>
+    <div class="container">
+      <ul class="examples">
+        <li class="examples__item">
+          <article class="site">
+            <h3 class="site__title">Site</h3>
+            <button class="button site__button">
+              <span class="visually-hidden">Show description</span>
+            </button>
+            <article class="description">
+              <div class="description__top">
+                <h3 class="description__title"></h3>
+                <p class="description__summary">Description about project</p>
+              </div>
+              <p class="description__text">
+                Website design & code
+              </p>
+              <a class="button description__link">Visit project</a>
+            </article>
+          </article>
+        </li>
+        <li class="examples__item">
+            <article class="site">
+              <h3 class="site__title">Logicom</h3>
+              <button class="button site__button">
+                <span class="visually-hidden">Show description</span>
+              </button>
+              <article class="site__description description">
+                <div class="description__top">
+                  <h3 class="description__title">Logicom</h3>
+                  <p class="description__summary">Description about project</p>
+                </div>
+                <p class="description__text">
+                  Website design & code
+                </p>
+                <a class="button description__link">Visit project</a>
+              </article>
+            </article>
+          </li>
+          <li class="examples__item">
+            <article class="site">
+              <h3 class="site__title">Coral Coalition</h3>
+            <button class="button site__button">
+              <span class="visually-hidden">Show description</span>
+            </button>
+            <article class="site__description description">
+              <div class="description__top">
+                <h3 class="description__title">Coral Coalition</h3>
+                <p class="description__summary">Description about project</p>
+              </div>
+              <p class="description__text">
+                Website design & code
+              </p>
+              <a class="button description__link">Visit project</a>
+            </article>
+          </article>
+        </li>
+        <li class="examples__item">
+          <article class="site">
+            <h3 class="site__title">Goodbodi</h3>
+            <button class="button site__button">
+              <span class="visually-hidden">Show description</span>
+            </button>
+            <article class="site__description description">
+              <div class="description__top">
+                <h3 class="description__title">Goodbodi</h3>
+                <p class="description__summary">Description about project</p>
+              </div>
+              <p class="description__text">
+                Website design & code
+              </p>
+              <a class="button description__link">Visit project</a>
+            </article>
+          </article>
+        </li>
+      </ul>
+      <button class="button show-modal-button">See more projects</button>
+    </div>
+    </main>
+  <div class="overlay">
+    <div class="modal">
+      <h2 class="modal__title">Send</h2>
+      <button class="modal__close">
+        <span class="visually-hidden">Close</span>
+      </button>
+      <form class="form">
+        <input type="text" class="form__input" name="user-name" placeholder="Your Name">
+        <input type="email" class="form__input" name="user-email" placeholder="Your Email">
+        <input type="tel" class="form__input" name="user-tel" placeholder="Your Contact Number">
+        <textarea class="form__input"></textarea>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>

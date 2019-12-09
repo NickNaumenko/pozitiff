@@ -21,6 +21,11 @@ const paths = {
     dest: './build/',
     watch: './src/scss/**/*.scss'
   },
+  js: {
+    src: './src/js/script.js',
+    dest: './build/',
+    watch: './src/js/**/*.js'
+  },
   images: {
     src: './src/img/*',
     dest: './build/img',
@@ -46,6 +51,13 @@ gulp.task('html', () => {
     .pipe(browserSync.stream());
 });
 
+gulp.task('js', () => {
+  return gulp.src(paths.js.src)
+    .pipe(plumber())
+    .pipe(gulp.dest(paths.js.dest))
+    .pipe(browserSync.stream());
+})
+
 gulp.task('images', () => {
   return gulp.src(paths.images.src)
     .pipe(plumber())
@@ -67,6 +79,7 @@ gulp.task('server', () => {
   gulp.watch(paths.css.watch, gulp.parallel('styles'));
   gulp.watch(paths.html.watch, gulp.parallel('html'));
   gulp.watch(paths.images.watch, gulp.parallel('images'));
+  gulp.watch(paths.js.watch, gulp.parallel('js'));
 });
 
 
@@ -74,6 +87,7 @@ gulp.task('build', gulp.series(
   'clean',
   'html',
   'styles',
+  'js',
   'images'
 ));
 
