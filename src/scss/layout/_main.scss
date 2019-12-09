@@ -7,4 +7,10 @@
   &__button {
     align-self: flex-end;
   }
+
+  @media (max-width: $md) {
+    &__button {
+      align-self: center;
+    }
+  }
 }
