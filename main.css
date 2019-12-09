@@ -668,6 +668,9 @@ body {
   padding-top: 131px; }
   .main__button {
     align-self: flex-end; }
+  @media (max-width: 768px) {
+    .main__button {
+      align-self: center; } }
 
 .examples {
   list-style: none;
