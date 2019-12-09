@@ -22,13 +22,17 @@
 @import
   'layout/header',
   'layout/footer',
-  'layout/examples';
+  'layout/examples',
+  'layout/modal';
 
 // 5. Components
 @import
   'components/button',
+  'components/overlay',
   'components/site',
-  'components/description';
+  'components/description',
+  'components/modal-form',
+  'components/form';
 
 // 6. Page-specific styles
 @import

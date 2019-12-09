@@ -86,18 +86,21 @@
       </ul>
       <button class="button show-modal-button">See more projects</button>
     </div>
-    </main>
-  <div class="overlay">
-    <div class="modal">
-      <h2 class="modal__title">Send</h2>
-      <button class="modal__close">
-        <span class="visually-hidden">Close</span>
-      </button>
+  </main>
+  <div class="modal">
+    <div class="overlay"></div>
+    <div class="modal__content modal-form">
+      <div class="modal-form__top">
+        <h2 class="modal-form__title">Send</h2>
+        <button class="button modal-form__close modal__close">
+          <span class="visually-hidden">Close</span>
+        </button>
+      </div>        
       <form class="form">
         <input type="text" class="form__input" name="user-name" placeholder="Your Name">
         <input type="email" class="form__input" name="user-email" placeholder="Your Email">
         <input type="tel" class="form__input" name="user-tel" placeholder="Your Contact Number">
-        <textarea class="form__input"></textarea>
+        <textarea class="form__input form__textarea"></textarea>
       </form>
     </div>
   </div>

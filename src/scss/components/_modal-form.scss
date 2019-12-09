@@ -1,0 +1,28 @@
+.modal-form {
+  padding: 25px 15px;
+  color: $white;
+  background: #7C9CAC;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17px;
+  }
+
+  &__title {
+    font-family: Saira ExtraCondensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 42px;    
+  }
+
+  &__close {
+    &::before {
+      content: 'X';
+      color: $white;
+      font-size: 38px;
+      line-height: 42px;
+    }
+  }
+}
