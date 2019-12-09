@@ -9,22 +9,22 @@
 
   &--vocalip {
     background-color: #F6F9FC;
-    background-image: url('../../img/vocalip.svg');
+    background-image: url('./img/vocalip.svg');
   }
 
   &--logicom {
     background-color: #F6F9FC;
-    background-image: url('../../img/logicom.svg');
+    background-image: url('./img/logicom.svg');
     background-size: 50%;
     background-position: center;
   }
 
   &--coral {
-    background-image: url('../../img/corals.jpg');
+    background-image: url('./img/corals.jpg');
   }
 
   &--goodbodi {
-    background-image: url('../../img/goodbody.jpg');
+    background-image: url('./img/goodbody.jpg');
   }
 
   &__title {
@@ -51,7 +51,7 @@
       @include pseudo-image;
       width: 25px;
       height: 25px;
-      background-image: url('../../img/add.svg');
+      background-image: url('./img/add.svg');
     }
   }
 
@@ -67,11 +67,11 @@
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     &--coral {
-      background-image: url("../../img/corals@2x.jpg");
+      background-image: url("./img/corals@2x.jpg");
     }
 
     &--goodbodi {
-      background-image: url("../../img/goodbody@2x.jpg");
+      background-image: url("./img/goodbody@2x.jpg");
     }
   }
 
