@@ -74,6 +74,10 @@
       background-image: url("../../img/goodbody@2x.jpg");
     }
   }
+
+  @media (max-width: $lg) {
+    // min-height: 100px;
+  }
 }
 
 .open {

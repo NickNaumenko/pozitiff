@@ -1,6 +1,8 @@
 .main {
   display: flex;
   flex-direction: column;
+  padding-bottom: 131px;
+  padding-top: 131px;
 
   &__button {
     align-self: flex-end;
