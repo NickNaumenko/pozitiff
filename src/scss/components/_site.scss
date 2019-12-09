@@ -28,7 +28,7 @@
   }
 
   &__title {
-    font-family: Rubik;
+    font-family: Rubik, sans-serif;
     @include article-title;
     text-align: right;
     letter-spacing: 0.03em;

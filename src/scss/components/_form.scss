@@ -10,11 +10,16 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
+    font-family: 'Lato', sans-serif;
     background-color: #ffffff;
     border: none;
 
     &:last-child {
       margin-bottom: 0;
+    }
+
+    &::placeholder {
+      color: #C4C4C4;
     }
   }
 

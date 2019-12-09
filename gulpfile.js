@@ -30,6 +30,11 @@ const paths = {
     src: './src/img/*',
     dest: './build/img',
     watch: ['./src/img/*']
+  },
+  fonts: {
+    src: './src/fonts/*',
+    dest: './build/fonts',
+    watch: ['./src/fonts/*']
   }
 };
 
@@ -68,6 +73,11 @@ gulp.task('images', () => {
     .pipe(gulp.dest(paths.images.dest));
 });
 
+gulp.task('fonts', () => {
+  return gulp.src(paths.fonts.src)
+    .pipe(gulp.dest(paths.fonts.dest));
+});
+
 gulp.task('server', () => {
   browserSync.init({
     server: {
@@ -88,7 +98,8 @@ gulp.task('build', gulp.series(
   'html',
   'styles',
   'js',
-  'images'
+  'images',
+  'fonts'
 ));
 
 gulp.task('deploy', function() {
