@@ -20,6 +20,7 @@
 
 // 4. Layout-related sections
 @import
+  'layout/main',
   'layout/header',
   'layout/footer',
   'layout/examples',
@@ -32,7 +33,8 @@
   'components/site',
   'components/description',
   'components/modal-form',
-  'components/form';
+  'components/form',
+  'components/show-modal-button';
 
 // 6. Page-specific styles
 @import
