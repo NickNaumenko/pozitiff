@@ -562,7 +562,7 @@ a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local("Roboto"), local("Roboto-Regular"), url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v20-latin-regular.woff") format("woff");
+  src: local("Roboto"), local("Roboto-Regular"), url("./fonts/roboto-v20-latin-regular.woff2") format("woff2"), url("./fonts/roboto-v20-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
 
 /* roboto-700 - latin */
@@ -570,7 +570,7 @@ a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: local("Roboto Bold"), local("Roboto-Bold"), url("../fonts/roboto-v20-latin-700.woff2") format("woff2"), url("../fonts/roboto-v20-latin-700.woff") format("woff");
+  src: local("Roboto Bold"), local("Roboto-Bold"), url("./fonts/roboto-v20-latin-700.woff2") format("woff2"), url("./fonts/roboto-v20-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
 
 /* rubik-500 - latin */
@@ -578,7 +578,7 @@ a {
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 500;
-  src: local("Rubik Medium"), local("Rubik-Medium"), url("../fonts/rubik-v9-latin-500.woff2") format("woff2"), url("../fonts/rubik-v9-latin-500.woff") format("woff");
+  src: local("Rubik Medium"), local("Rubik-Medium"), url("./fonts/rubik-v9-latin-500.woff2") format("woff2"), url("./fonts/rubik-v9-latin-500.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
 
 /* lato-regular - latin */
@@ -586,7 +586,7 @@ a {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local("Lato Regular"), local("Lato-Regular"), url("../fonts/lato-v16-latin-regular.woff2") format("woff2"), url("../fonts/lato-v16-latin-regular.woff") format("woff");
+  src: local("Lato Regular"), local("Lato-Regular"), url("./fonts/lato-v16-latin-regular.woff2") format("woff2"), url("./fonts/lato-v16-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
 
 /* saira-extra-condensed-regular - latin */
@@ -594,7 +594,7 @@ a {
   font-family: 'Saira Extra Condensed';
   font-style: normal;
   font-weight: 400;
-  src: local("Saira ExtraCondensed Regular"), local("SairaExtraCondensed-Regular"), url("../../fonts/saira-extra-condensed-v5-latin-regular.woff2") format("woff2"), url("../../fonts/saira-extra-condensed-v5-latin-regular.woff") format("woff");
+  src: local("Saira ExtraCondensed Regular"), local("SairaExtraCondensed-Regular"), url(".././fonts/saira-extra-condensed-v5-latin-regular.woff2") format("woff2"), url(".././fonts/saira-extra-condensed-v5-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
 
 /**
@@ -731,16 +731,16 @@ body {
   background-size: cover; }
   .site--vocalip {
     background-color: #F6F9FC;
-    background-image: url("../img/vocalip.svg"); }
+    background-image: url("./img/vocalip.svg"); }
   .site--logicom {
     background-color: #F6F9FC;
-    background-image: url("../img/logicom.svg");
+    background-image: url("./img/logicom.svg");
     background-size: 50%;
     background-position: center; }
   .site--coral {
-    background-image: url("../img/corals.jpg"); }
+    background-image: url("./img/corals.jpg"); }
   .site--goodbodi {
-    background-image: url("../img/goodbody.jpg"); }
+    background-image: url("./img/goodbody.jpg"); }
   .site__title {
     font-family: Rubik, sans-serif;
     font-style: normal;
@@ -770,7 +770,7 @@ body {
       background-size: 100%;
       width: 25px;
       height: 25px;
-      background-image: url("../img/add.svg"); }
+      background-image: url("./img/add.svg"); }
   .site__description {
     position: absolute;
     top: 0;
@@ -781,9 +781,9 @@ body {
     transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1); }
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .site--coral {
-      background-image: url("../img/corals@2x.jpg"); }
+      background-image: url("./img/corals@2x.jpg"); }
     .site--goodbodi {
-      background-image: url("../img/goodbody@2x.jpg"); } }
+      background-image: url("./img/goodbody@2x.jpg"); } }
 
 .open .site__title {
   display: none; }
